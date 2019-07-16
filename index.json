@@ -1,0 +1,37 @@
+{
+    "type":"MCU",
+    "name":"STM32C031",
+    "title": "ST STM32C031 MCU",
+    "description":"ST Low Cost MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":48,
+        "DMIPS": 59,
+        "CoreMark": 142
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STM32C031.git"
+    },
+    "version":"1.0.0",
+    "series":["STM32C031"],
+    "package":["SOP8","TSSOP20","LQFP32","LQFP48"],
+    "peripheral": ["ADC","USART","SPI","I2C"],
+    "temp": [-40,85],
+    "volt": [2.0,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "ST",
+        "ADC","I2C","SPI","RTC","USART"
+    ]
+}
+
